@@ -4,12 +4,10 @@
 # kept in cv.yml.example -- copy blocks out of it as you need them.
 cv:
   name: Ruihan Wu
-  label: Fourth-Year Undergraduate Student
+  label: Senior Undergraduate Student
   email: ruihanwu@sas.upenn.edu
   location: Philadelphia, PA, US
   image: prof_pic.jpg
-  summary: Fourth-year undergraduate in information engineering at Southern University of Science and Technology and visiting undergraduate student at the University of Pennsylvania, interested in robotics and learning for control.
-
   social_networks:
     - network: GitHub
       username: RayH-Wu

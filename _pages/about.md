@@ -2,15 +2,12 @@
 layout: about
 title: about
 permalink: /
-subtitle: Fourth-Year Undergraduate at SUSTech | Visiting Undergraduate Student at UPenn
+subtitle: Senior Undergraduate Student at SUSTech | Visiting Undergraduate Student at UPenn
 
 profile:
   align: right
   image: prof_pic.jpg
   image_circular: false # keep the full portrait visible
-  more_info: >
-    <p>Southern University of Science and Technology</p>
-    <p>University of Pennsylvania</p>
 
 selected_papers: true # lists papers.bib entries marked selected={true}
 social: true # includes social icons at the bottom of the page
@@ -26,7 +23,7 @@ latest_posts:
   limit: 3
 ---
 
-Hey there! I am Ruihan Wu, a fourth-year undergraduate student majoring in
+Hey there! I am Ruihan Wu, a senior undergraduate student majoring in
 information engineering at
 [Southern University of Science and Technology](https://www.sustech.edu.cn/en/)
 and a visiting undergraduate student at the University of Pennsylvania.
