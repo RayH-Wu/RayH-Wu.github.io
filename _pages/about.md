@@ -18,6 +18,15 @@ latest_posts:
   limit: 3
 ---
 
+<script>
+  document.addEventListener("DOMContentLoaded", function () {
+    const heading = document.querySelector(".post-title");
+    if (heading) {
+      heading.textContent = "Ruihan Wu（吴瑞涵）";
+    }
+  });
+</script>
+
 <div style="display:flex; gap:2rem; align-items:flex-start; flex-wrap:wrap; margin-top:0.5rem;">
   <div style="flex:1 1 520px; min-width:0;">
     <p>Hey there!</p>
