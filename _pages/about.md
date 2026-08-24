@@ -2,7 +2,7 @@
 layout: about
 title: about
 permalink: /
-subtitle: Senior Undergraduate in Information Engineering, SUSTech
+subtitle:
 
 selected_papers: true # lists papers.bib entries marked selected={true}
 social: true # includes social icons at the bottom of the page
