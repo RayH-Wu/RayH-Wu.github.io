@@ -225,6 +225,7 @@ kramdown:
 include: ["_pages"]
 exclude:
   - AGENTS.md
+  - FILL-IN.md
   - al-folio-upgrade-report.md
   - bin/
   - CLAUDE.md
