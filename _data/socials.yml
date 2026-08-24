@@ -7,8 +7,5 @@ email: ruihanwu@sas.upenn.edu
 github_username: RayH-Wu
 scholar_userid: # TODO: the string after "user=" in your Google Scholar profile URL
 linkedin_username: ruihan-wu-654b483a5
-orcid_id: # TODO: e.g. 0000-0002-1825-0097 (free at https://orcid.org)
 # x_username:              # TODO: your X/Twitter handle, without the @
 # semanticscholar_id:      # TODO: the numeric id in semanticscholar.org/author/.../<id>
-cv_pdf: /assets/pdf/ruihan_wu_resume.pdf
-rss_icon: false # set to true to show the RSS icon (only useful if you blog)
