@@ -42,21 +42,9 @@ cv:
         location: Baltimore, MD, US
         start_date: 2026-06
         end_date: 2026-09
-        summary: Summer research internship in robot perception and intelligence.
-        highlights:
-          - Working on learning-based robotics systems and control.
+        summary: Research internship at the Learning, Control, and Safety Robotics (LCSR) Lab, working on robotics and learning for control.
 
     Projects:
-      - name: Provably Optimal MARL for Safety-Filtered Quadruped Zero-Sum Games
-        location: Baltimore, MD, US
-        start_date: 2026-06
-        end_date: present
-        summary: Boundary-aware safety filtering for quadruped locomotion and adversarial reinforcement learning.
-        highlights:
-          - Implemented a boundary-aware control barrier function safety filter.
-          - Built a GPU-accelerated training environment on MuJoCo Warp.
-          - Extended the PORL framework to a filtered Markov game setting.
-
       - name: Physical Residual Distillation for AUV Reinforcement Learning Control
         location: Philadelphia, PA, US
         start_date: 2025-12
