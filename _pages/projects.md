@@ -2,10 +2,10 @@
 layout: page
 title: projects
 permalink: /projects/
-description: A growing collection of your cool projects.
-nav: false
-nav_order: 3
-display_categories: [work, fun]
+description: Things I have built. Each card links to its own page.
+nav: true
+nav_order: 2
+display_categories: [research] # 每个 _projects/*.md 的 category 必须命中这里的某一项
 horizontal: false
 ---
 

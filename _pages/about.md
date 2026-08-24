@@ -13,7 +13,7 @@ profile:
     <p>University of Pennsylvania</p>
     <p>Philadelphia, PA</p>
 
-selected_papers: false # flip to true once papers.bib has entries marked selected={true}
+selected_papers: true # lists papers.bib entries marked selected={true}
 social: true # includes social icons at the bottom of the page
 
 announcements:
