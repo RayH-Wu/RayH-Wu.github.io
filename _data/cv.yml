@@ -120,21 +120,10 @@ cv:
         summary: A hybrid Stonefish-MuJoCo framework distills residual hydrodynamics from a high-fidelity simulator into a fast rigid-body engine for stable RL-based AUV control.
 
     Skills:
-      - name: Robot learning
-        icon: fa-solid fa-robot
-        keywords: "reinforcement learning, self-play, sim-to-real, domain randomization"
+      - name: Language
+        icon: fa-solid fa-language
+        keywords: "English (Fluent, TOEFL 109), Chinese (Native)"
 
-      - name: Safety-critical control
-        icon: fa-solid fa-shield-halved
-        keywords: "Hamilton-Jacobi reachability, control barrier functions, safety filters"
-
-      - name: Systems
+      - name: Technical
         icon: fa-solid fa-code
-        keywords: "Python, PyTorch, Isaac Sim, ROS 2, C++, Unitree Go2"
-
-    Languages:
-      - name: Chinese
-        summary: Native speaker
-
-      - name: English
-        summary: Fluent
+        keywords: "C, Python, bash, ROS, Reinforcement Learning, Convex Optimization, Deep Learning"
