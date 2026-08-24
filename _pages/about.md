@@ -20,7 +20,8 @@ latest_posts:
 
 <div style="display:flex; gap:2rem; align-items:flex-start; flex-wrap:wrap; margin-top:0.5rem;">
   <div style="flex:1 1 520px; min-width:0;">
-    <p>Hey there! I am Ruihan Wu, a senior undergraduate in Information Engineering at Southern University of Science and Technology (SUSTech).</p>
+    <p>Hey there!</p>
+    <p>I am Ruihan Wu, a senior undergraduate in Information Engineering at Southern University of Science and Technology (SUSTech).</p>
 
     <p>At SUSTech, I work with <a href="https://www.sustech.edu.cn/en/faculties/shuxiangguo.html">Prof. Shuxiang Guo</a>. I spent a semester at University of Pennsylvania as an exchange student, and later I was also lucky to collaborate with <a href="https://haiminhu.org/">Prof. Haimin Hu</a> at Johns Hopkins University over the summer.</p>
 
@@ -28,7 +29,7 @@ latest_posts:
 
   </div>
 
-  <div style="flex:0 0 260px; max-width:260px; margin-top:0.25rem;">
+  <div style="flex:0 0 230px; max-width:230px; margin-top:0.25rem;">
     <img src="/assets/img/prof_pic.jpg" alt="Ruihan Wu" style="width:100%; height:auto; border-radius:6px; display:block; box-shadow:0 2px 10px rgba(0,0,0,0.12);">
   </div>
 </div>
