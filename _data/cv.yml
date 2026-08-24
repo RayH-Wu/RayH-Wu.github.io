@@ -4,7 +4,6 @@
 # kept in cv.yml.example -- copy blocks out of it as you need them.
 cv:
   name: Ruihan Wu
-  label: Senior Undergraduate Student
   email: ruihanwu@sas.upenn.edu
   location: Philadelphia, PA, US
   image: prof_pic.jpg
