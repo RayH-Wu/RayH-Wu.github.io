@@ -32,14 +32,16 @@
 % A complete worked example of every field is in papers.bib.example.
 % ============================================================================
 
-@unpublished{wu2026turning,
-  title       = {Turning Safety into Competency: Equilibrium-Preserving Play in Multi-Robot Interaction},
-  author      = {Wu, Ruihan},
+@inproceedings{wu2026deepsim,
+  title       = {Deep Hydro-Sim: Structured Residual Hydrodynamics for the RL-Based AUV Control},
+  author      = {Wu, Ruihan and Li, Chunying and Lei, Qirong and Huang, Le and Li, Pengcheng and Guo, Shuxiang},
+  booktitle   = {2026 IEEE International Conference on Mechatronics and Automation (ICMA)},
   year        = {2026},
-  abbr        = {Preprint},
+  abbr        = {ICMA},
   selected    = {true},
-  preview     = {safety-game.gif},
-  abstract    = {A safety rule is usually paid for with a reward penalty, traded off against the task. We encode it instead as a least-restrictive filter, so it reshapes the space of admissible strategies rather than the score. Under such a filter the rule is never realised in play and the competitive equilibrium is preserved exactly, which we verify on two quadrupeds in a zero-sum interaction.},
-  note        = {In preparation},
+  preview     = {teacher_student_simulators.png},
+  pdf         = {632011_RuihanWu_paper.pdf},
+  code        = {https://github.com/RayH-Wu/DeepHydroSim-AUV_RL_Control},
+  abstract    = {Deep Hydro-Sim bridges a high-fidelity underwater simulator and a fast rigid-body engine by learning residual hydrodynamic forces from Stonefish and injecting them into MuJoCo as a real-time plugin. The result improves open-loop replay fidelity and stabilizes downstream SAC training for AUV control without sacrificing throughput.},
   bibtex_show = {true},
 }

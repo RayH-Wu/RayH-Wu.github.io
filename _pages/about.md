@@ -2,16 +2,15 @@
 layout: about
 title: about
 permalink: /
-# TODO: replace with your real title, e.g. PhD Student, GRASP Lab, University of Pennsylvania
-subtitle: University of Pennsylvania
+subtitle: Fourth-Year Undergraduate at SUSTech | Visiting Undergraduate Student at UPenn
 
 profile:
   align: right
   image: prof_pic.jpg
-  image_circular: true # crops the image to make it circular
+  image_circular: false # keep the full portrait visible
   more_info: >
+    <p>Southern University of Science and Technology</p>
     <p>University of Pennsylvania</p>
-    <p>Philadelphia, PA</p>
 
 selected_papers: true # lists papers.bib entries marked selected={true}
 social: true # includes social icons at the bottom of the page
@@ -27,27 +26,22 @@ latest_posts:
   limit: 3
 ---
 
-I work on **reinforcement learning for legged robots**, and on making learned
-controllers safe enough to run around other robots and other people.
+Hey there! I am Ruihan Wu, a fourth-year undergraduate student majoring in
+information engineering at
+[Southern University of Science and Technology](https://www.sustech.edu.cn/en/)
+and a visiting undergraduate student at the University of Pennsylvania.
 
-<!-- TODO: one sentence on your position and advisor, e.g.
-     "I am a second-year PhD student at the University of Pennsylvania, advised by Prof. X." -->
+At SUSTech, I worked with [Prof. Shuxiang Guo](https://www.sustech.edu.cn/en/faculties/shuxiangguo.html)
+on robotics and control. I am also spending a summer at Johns Hopkins
+University working with [Prof. Haimin Hu](https://haiminhu.org/) on learning for
+control and safety-critical multi-agent systems.
 
-My current research asks what happens when safety and competition are put in the
-same problem. The usual answer is a penalty term: a controller is paid to win and
-fined when it crashes, and the two are traded off inside one reward. I take a
-different route — encode the safety rule as a _filter_ around the policy, so it
-reshapes the space of admissible strategies instead of the score. Under a
-least-restrictive filter the rule is never actually triggered in play, and the
-competitive equilibrium of the game is preserved exactly: safety costs no
-competitive value. I build this out on two quadrupeds playing a zero-sum
-dogfight, where the safety specification is coupled — whether one robot can stay
-safe depends on what the other does — and verify it in hardware on Unitree Go2s.
+My interests sit at the intersection of robotics and learning for control. I am
+especially drawn to problems where a policy has to be data-driven, physically
+reliable, and safe enough to deploy in the real world. That is the thread that
+connects my work on legged robots, underwater control, and multi-agent
+interaction.
 
-Along the way I care about the unglamorous parts: reachability-based certificates
-that survive contact, self-play that does not collapse, domain randomisation that
-holds up on a real sensor channel, and exploitability as the honest measure of a
-policy rather than its win rate against a fixed opponent.
-
-<!-- TODO: a line about your background, or delete this block.
-     e.g. "Before Penn I did X at Y." -->
+Right now, I am working on safety-filtered reinforcement learning for
+competitive robot interaction and on residual hydrodynamics distillation for
+AUV control.

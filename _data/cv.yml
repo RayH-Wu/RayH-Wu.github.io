@@ -4,48 +4,159 @@
 # kept in cv.yml.example -- copy blocks out of it as you need them.
 cv:
   name: Ruihan Wu
-  label: # TODO: e.g. PhD Student in Robotics
+  label: Fourth-Year Undergraduate Student
   email: ruihanwu@sas.upenn.edu
-  location: Philadelphia, PA
-  image: ""
-  summary: # TODO: one or two sentences
+  location: Philadelphia, PA, US
+  image: prof_pic.jpg
+  summary: Fourth-year undergraduate in information engineering at Southern University of Science and Technology and visiting undergraduate student at the University of Pennsylvania, interested in robotics and learning for control.
 
   social_networks:
     - network: GitHub
       username: RayH-Wu
-    # - network: LinkedIn
-    #   username: TODO
+    - network: LinkedIn
+      username: ruihan-wu-654b483a5
 
   sections:
     Education:
+      - institution: Southern University of Science and Technology
+        location: Shenzhen, China
+        url: https://www.sustech.edu.cn/
+        area: Information Engineering
+        studyType: Bachelor of Engineering
+        start_date: 2023-09
+        end_date: 2027-06
+        highlights:
+          - GPA 3.93/4.0, rank 1/48.
+
       - institution: University of Pennsylvania
         location: Philadelphia, PA, US
         url: https://www.upenn.edu/
-        area: # TODO: e.g. Robotics / Electrical and Systems Engineering
-        studyType: # TODO: PhD / MSE
-        start_date: # TODO: e.g. 2024
-        end_date: present
-        # highlights:
-        #   - advisor, thesis topic, coursework, ...
+        area: International Guest Student Program
+        studyType: Visiting Undergraduate Student
+        start_date: 2026-01
+        end_date: 2026-05
+        highlights:
+          - GPA 4.0/4.0.
 
-    # Uncomment and fill in when you have entries. An empty section renders as
-    # a bare heading, so keep sections commented out until they have content.
-    # Experience:
-    #   - company: Some Lab
-    #     position: Research Assistant
-    #     location: Philadelphia, PA, US
-    #     start_date: 2024-09
-    #     end_date: present
-    #     highlights:
-    #       - What you built or showed.
+    Experience:
+      - company: Johns Hopkins University
+        position: Summer Research Intern
+        location: Baltimore, MD, US
+        start_date: 2026-06
+        end_date: 2026-09
+        summary: Summer research internship in robot perception and intelligence.
+        highlights:
+          - Working on learning-based robotics systems and control.
+
+    Projects:
+      - name: Provably Optimal MARL for Safety-Filtered Quadruped Zero-Sum Games
+        location: Baltimore, MD, US
+        start_date: 2026-06
+        end_date: present
+        summary: Boundary-aware safety filtering for quadruped locomotion and adversarial reinforcement learning.
+        highlights:
+          - Implemented a boundary-aware control barrier function safety filter.
+          - Built a GPU-accelerated training environment on MuJoCo Warp.
+          - Extended the PORL framework to a filtered Markov game setting.
+
+      - name: Physical Residual Distillation for AUV Reinforcement Learning Control
+        location: Philadelphia, PA, US
+        start_date: 2025-12
+        end_date: 2026-03
+        summary: Hybrid Stonefish-MuJoCo simulator and residual hydrodynamics distillation for AUV control.
+        highlights:
+          - Coupled rigid-body physics with a learned residual hydrodynamics model.
+          - Published Deep Hydro-Sim at ICMA 2026 and presented it orally in Jilin.
+
+      - name: Design of Underwater Navigation and Control System for Coaxial Twin-Propeller ROV
+        location: Shenzhen, China
+        start_date: 2025-10
+        end_date: 2026-01
+        summary: ROS2 and visual SLAM based underwater navigation and control system.
+        highlights:
+          - Integrated stereo vision and auxiliary sensors for high-precision localization.
+          - Deployed ORB_SLAM3 for underwater environment mapping.
+
+    Awards:
+      - title: SUSTech Outstanding Student Scholarship
+        authors:
+          - Southern University of Science and Technology
+        date: 2025
+        awarder: Southern University of Science and Technology
+        summary: Second Prize, 2023-2024 and 2024-2025.
+
+      - title: Outstanding Student
+        authors:
+          - Southern University of Science and Technology
+        date: 2025
+        awarder: Southern University of Science and Technology
+        summary: Recognized in 2024 and 2025.
+
+      - title: Silver Prize, Shokz Cup Global Outstanding Innovative Talent Summer School
+        authors:
+          - Shokz Cup Global Outstanding Innovative Talent Summer School
+        date: 2025
+        awarder: Shokz Cup Global Outstanding Innovative Talent Summer School
+        summary: Built a vision-based surface-water cleaning unmanned boat.
+
+      - title: National Second Prize, National Undergraduate Electronics Design Contest
+        authors:
+          - National Undergraduate Electronics Design Contest
+        date: 2025
+        awarder: National Undergraduate Electronics Design Contest
+        summary: Designed a laser-guided automatic target-following vehicle.
+
+      - title: Provincial First Prize and National Second Prize, National Undergraduate Mathematical Modeling Contest
+        authors:
+          - National Undergraduate Mathematical Modeling Contest
+        date: 2025
+        awarder: National Undergraduate Mathematical Modeling Contest
+        summary: Developed a smoke-diffusion model and PSO-based tactical planner.
+
+      - title: Silver Prize, Foreign Language Press "China Talent Cup" English Comprehensive Proficiency Competition
+        authors:
+          - Foreign Language Press
+        date: 2025
+        awarder: Foreign Language Press
+        summary: English comprehensive proficiency competition.
+
+      - title: Third Prize, Foreign Language Press "China Talent Cup" English Listening Competition
+        authors:
+          - Foreign Language Press
+        date: 2025
+        awarder: Foreign Language Press
+        summary: English listening competition.
+
+    Publications:
+      - title: "Deep Hydro-Sim: Structured Residual Hydrodynamics for the RL-Based AUV Control"
+        authors:
+          - Ruihan Wu
+          - Chunying Li
+          - Qirong Lei
+          - Le Huang
+          - Pengcheng Li
+          - Shuxiang Guo
+        publisher: 2026 IEEE International Conference on Mechatronics and Automation (ICMA)
+        releaseDate: 2026-06-01
+        url: /assets/pdf/632011_RuihanWu_paper.pdf
+        summary: A hybrid Stonefish-MuJoCo framework distills residual hydrodynamics from a high-fidelity simulator into a fast rigid-body engine for stable RL-based AUV control.
 
     Skills:
       - name: Robot learning
         icon: fa-solid fa-robot
         keywords: "reinforcement learning, self-play, sim-to-real, domain randomization"
+
       - name: Safety-critical control
         icon: fa-solid fa-shield-halved
         keywords: "Hamilton-Jacobi reachability, control barrier functions, safety filters"
+
       - name: Systems
         icon: fa-solid fa-code
         keywords: "Python, PyTorch, Isaac Sim, ROS 2, C++, Unitree Go2"
+
+    Languages:
+      - name: Chinese
+        summary: Native speaker
+
+      - name: English
+        summary: Fluent
