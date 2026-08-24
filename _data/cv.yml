@@ -1,6 +1,7 @@
-# Drives the /cv/ page (and, if you re-enable the "Render a CV" workflow, a PDF).
-# The page is hidden from the navbar until you flip `nav: true` in _pages/cv.md.
-# A fully worked example of every supported field is kept in cv.yml.example.
+# Drives the /cv/ page. The page is hidden from the navbar until you flip
+# `nav: true` in _pages/cv.md. A fully worked example of every supported
+# field (Awards, Publications, Languages, Certificates, References, ...) is
+# kept in cv.yml.example -- copy blocks out of it as you need them.
 cv:
   name: Ruihan Wu
   label: # TODO: e.g. PhD Student in Robotics
@@ -24,17 +25,19 @@ cv:
         studyType: # TODO: PhD / MSE
         start_date: # TODO: e.g. 2024
         end_date: present
-        highlights:
-          -  # TODO: advisor, thesis topic, or delete this block
+        # highlights:
+        #   - advisor, thesis topic, coursework, ...
 
-    Experience:
-      - company: # TODO
-        position: # TODO
-        location: # TODO
-        start_date: # TODO
-        end_date: # TODO
-        highlights:
-          -  # TODO
+    # Uncomment and fill in when you have entries. An empty section renders as
+    # a bare heading, so keep sections commented out until they have content.
+    # Experience:
+    #   - company: Some Lab
+    #     position: Research Assistant
+    #     location: Philadelphia, PA, US
+    #     start_date: 2024-09
+    #     end_date: present
+    #     highlights:
+    #       - What you built or showed.
 
     Skills:
       - name: Robot learning

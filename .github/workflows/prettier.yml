@@ -20,7 +20,11 @@ jobs:
       - name: Setup Node.js ⚙️
         uses: actions/setup-node@v4
       - name: Install Prettier 💾
-        run: npm install --save-dev --save-exact prettier @shopify/prettier-plugin-liquid
+        # Use the versions pinned in package-lock.json. The upstream workflow
+        # installed the latest prettier, which drifts from the local one and
+        # fails the check on files that are formatted correctly for the pinned
+        # version (prettier 3.8.0 vs 3.9.6 disagree on YAML blank lines).
+        run: npm ci
       - name: Prettier Check 🔎
         id: prettier
         run: npx prettier . --check

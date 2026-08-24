@@ -3,38 +3,31 @@
 
 @string{aps = {American Physical Society,}}
 
-% =============================================================================
-% Your publications go here. Newest first is not required — the page groups and
-% sorts by `year` automatically (see `scholar:` in _config.yml).
+% ============================================================================
+% Your publications go here. Entries are grouped and sorted by `year`
+% automatically (see the `scholar:` block in _config.yml).
 %
-% al-folio-specific fields:
-%   abbr      -> the coloured badge on the left (ICRA, RSS, T-RO, ...)
-%   selected  -> {true} puts the entry in "selected publications" on the homepage
-%   preview   -> image/gif in assets/img/publication_preview/ (thumbnail)
-%   pdf       -> a URL, or a filename placed in assets/pdf/
-%   code / website / video / poster / slides / supp -> extra buttons
-%   abstract  -> renders an expandable Abstract button
-%   award     -> a highlighted award line under the entry
-%   bibtex_show -> {true} adds a "Bib" button showing the raw entry
+% ---------------------------------------------------------------------------
+% WARNING, read this before editing:
+% In BibTeX, "%" is NOT a comment character (that is a LaTeX convention).
+% Anything following an "at" sign is parsed as an entry no matter how many
+% "%" you put in front of it, and one malformed entry fails the whole site
+% build. So never leave a half-written or "commented-out" entry in this file --
+% draft it in FILL-IN.md and paste it here only when it is complete.
+% ---------------------------------------------------------------------------
 %
-% A full worked example of every field is kept in papers.bib.example.
-% =============================================================================
-
-% --- Uncomment and complete when you are ready to list it publicly. ---------
-% NOTE: currently under double-anonymous review; listing it here is allowed by
-% IEEE RAS policy, but it is your call.
+% al-folio-specific fields (authoritative list: `filtered_bibtex_keywords`
+% in _config.yml):
 %
-% @inproceedings{wu2027turning,
-%   title     = {Turning Safety into Competency: Equilibrium-Preserving Play in Multi-Robot Interaction},
-%   author    = {Wu, Ruihan and TODO, Coauthor},
-%   booktitle = {IEEE International Conference on Robotics and Automation (ICRA)},
-%   year      = {2027},
-%   abbr      = {ICRA},
-%   selected  = {true},
-%   preview   = {TODO.gif},
-%   abstract  = {TODO},
-%   pdf       = {},
-%   code      = {},
-%   video     = {},
-%   bibtex_show = {true},
-% }
+%   abbr         the coloured badge on the left (ICRA, RSS, T-RO, ...)
+%   selected     true -> also listed under "selected publications" on the homepage
+%   preview      image or gif in assets/img/publication_preview/
+%   pdf          a full URL, or a filename placed in assets/pdf/
+%   code website video poster slides supp html blog     extra buttons
+%   abstract     renders an expandable Abstract button
+%   award        a highlighted award line under the entry
+%   bibtex_show  true adds a "Bib" button showing the raw entry
+%   arxiv altmetric dimensions inspirehep_id google_scholar_id   citation badges
+%
+% A complete worked example of every field is in papers.bib.example.
+% ============================================================================
