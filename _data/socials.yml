@@ -1,14 +1,14 @@
-# this file contains the social media links and usernames of the author
-# the socials will be displayed in the order they are defined here
-# for more information, please refer to the documentation of jekyll-socials plugin: https://github.com/george-gca/jekyll-socials
-cv_pdf: /assets/pdf/example_pdf.pdf # path to your CV PDF file
-email: you@example.com # your email address
-inspirehep_id: 1010907 # Inspire HEP author ID
-rss_icon: true # comment this line to hide the RSS icon
-scholar_userid: qc6CJjYAAAAJ # your Google Scholar ID
-# wechat_qr: # filename of your wechat qr-code saved as an image (e.g., wechat-qr.png if saved to assets/img/wechat-qr.png)
-# whatsapp_number: # your WhatsApp number (full phone number in international format. Omit any zeroes, brackets, or dashes when adding the phone number in international format.)
-custom_social: # can be any name here other than the ones already defined in the jekyll-socials plugin
-  logo: https://www.alberteinstein.com/wp-content/uploads/2024/03/cropped-favicon-192x192.png # can be png, svg, jpg
-  title: Custom Social
-  url: https://www.alberteinstein.com/
+# Social media links and contact info, rendered at the bottom of the About page
+# and inside the search results. Icons appear in the order defined here.
+# Full list of supported keys: https://github.com/george-gca/jekyll-socials
+# Delete a line (or leave it empty) to hide that icon.
+
+email: ruihanwu@sas.upenn.edu
+github_username: RayH-Wu
+scholar_userid: # TODO: the string after "user=" in your Google Scholar profile URL
+linkedin_username: # TODO: the slug in linkedin.com/in/<slug>
+orcid_id: # TODO: e.g. 0000-0002-1825-0097 (free at https://orcid.org)
+# x_username:              # TODO: your X/Twitter handle, without the @
+# semanticscholar_id:      # TODO: the numeric id in semanticscholar.org/author/.../<id>
+# cv_pdf: /assets/pdf/cv.pdf   # uncomment once you drop a CV PDF at that path
+rss_icon: false # set to true to show the RSS icon (only useful if you blog)
