@@ -105,13 +105,6 @@ cv:
         awarder: Foreign Language Press
         summary: English comprehensive proficiency competition.
 
-      - title: Third Prize, Foreign Language Press "China Talent Cup" English Listening Competition
-        authors:
-          - Foreign Language Press
-        date: 2025
-        awarder: Foreign Language Press
-        summary: English listening competition.
-
     Publications:
       - title: "Deep Hydro-Sim: Structured Residual Hydrodynamics for the RL-Based AUV Control"
         authors:
