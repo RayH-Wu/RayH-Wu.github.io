@@ -5,4 +5,4 @@ inline: true
 related_posts: false
 ---
 
-We gave an oral presentation of our ICMA paper in Jilin.
+Presented our paper at ICMA in Jilin, China (Oral).

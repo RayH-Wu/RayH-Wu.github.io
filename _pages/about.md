@@ -23,22 +23,13 @@ latest_posts:
   limit: 3
 ---
 
-Hey there! I am Ruihan Wu, a senior undergraduate student majoring in
-information engineering at
-[Southern University of Science and Technology](https://www.sustech.edu.cn/en/)
-and a visiting undergraduate student at the University of Pennsylvania.
+Hey there! I am Ruihan Wu, a senior undergraduate in Information Engineering at
+Southern University of Science and Technology (SUSTech).
 
-At SUSTech, I worked with [Prof. Shuxiang Guo](https://www.sustech.edu.cn/en/faculties/shuxiangguo.html)
-on robotics and control. I am also spending a summer at Johns Hopkins
-University working with [Prof. Haimin Hu](https://haiminhu.org/) on learning for
-control and safety-critical multi-agent systems.
+At SUSTech, I work with [Prof. Shuxiang Guo](https://www.sustech.edu.cn/en/faculties/shuxiangguo.html).
+I spent a semester at [UPenn](https://www.upenn.edu/) as an exchange student,
+and later I was also lucky to collaborate with [Prof. Haimin Hu](https://haiminhu.org/)
+at Johns Hopkins University over the summer.
 
-My interests sit at the intersection of robotics and learning for control. I am
-especially drawn to problems where a policy has to be data-driven, physically
-reliable, and safe enough to deploy in the real world. That is the thread that
-connects my work on legged robots, underwater control, and multi-agent
-interaction.
-
-Right now, I am working on safety-filtered reinforcement learning for
-competitive robot interaction and on residual hydrodynamics distillation for
-AUV control.
+My research interests broadly center on robotics and control. To me, exploring
+robotics is ultimately a process of understanding human nature and ourselves.
