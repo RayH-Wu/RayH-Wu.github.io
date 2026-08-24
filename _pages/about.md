@@ -23,7 +23,7 @@ latest_posts:
     <p>Hey there!</p>
     <p>I am Ruihan Wu, a senior undergraduate in Information Engineering at Southern University of Science and Technology (SUSTech).</p>
 
-    <p>At SUSTech, I work with <a href="https://www.sustech.edu.cn/en/faculties/shuxiangguo.html">Prof. Shuxiang Guo</a>. I spent a semester at University of Pennsylvania as an exchange student, and later I was also lucky to collaborate with <a href="https://haiminhu.org/">Prof. Haimin Hu</a> at Johns Hopkins University over the summer.</p>
+    <p>At SUSTech, I work with <a href="https://www.sustech.edu.cn/en/faculties/shuxiangguo.html">Prof. Shuxiang Guo</a>. I spent a semester at University of Pennsylvania as an exchange student, and later I was lucky to collaborate with <a href="https://haiminhu.org/">Prof. Haimin Hu</a> at Johns Hopkins University over the summer.</p>
 
     <p>My research interests broadly center on robotics and control. To me, exploring robotics is ultimately a process of understanding human nature and ourselves.</p>
 
