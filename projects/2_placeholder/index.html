@@ -31,19 +31,22 @@ ninja.data = [{
           },
         },{id: "nav-projects",
           title: "projects",
-          description: "Things I have built. Each card links to its own page.",
+          description: "",
           section: "Navigation",
           handler: () => {
             window.location.href = "/projects/";
           },
         },{id: "nav-cv",
           title: "CV",
-          description: "This is a description of the page. You can modify it in &#39;_pages/cv.md&#39;. You can also change or remove the top pdf download button.",
+          description: "Curriculum vitae and selected research experience.",
           section: "Navigation",
           handler: () => {
             window.location.href = "/cv/";
           },
-        },{id: "news-new-personal-website-is-up",
+        },{id: "news-we-gave-an-oral-presentation-of-our-icma-paper-in-jilin",
+          title: 'We gave an oral presentation of our ICMA paper in Jilin.',
+          description: "",
+          section: "News",},{id: "news-new-personal-website-is-up",
           title: 'New personal website is up.',
           description: "",
           section: "News",},{id: "projects-safety-filters-for-competitive-play",
@@ -82,7 +85,7 @@ ninja.data = [{
         title: 'LinkedIn',
         section: 'Socials',
         handler: () => {
-          window.open("https://www.linkedin.com/in/", "_blank");
+          window.open("https://www.linkedin.com/in/ruihan-wu-654b483a5", "_blank");
         },
       },{
         id: 'social-orcid',
@@ -90,6 +93,13 @@ ninja.data = [{
         section: 'Socials',
         handler: () => {
           window.open("https://orcid.org/", "_blank");
+        },
+      },{
+        id: 'social-cv',
+        title: 'CV',
+        section: 'Socials',
+        handler: () => {
+          window.open("/assets/pdf/ruihan_wu_resume.pdf", "_blank");
         },
       },{
         id: 'social-rss',
