@@ -1,17 +1,18 @@
 ---
 layout: page
-title: Underwater Navigation and Control for a Coaxial Twin-Propeller ROV
-description: ROS 2 and visual SLAM based navigation and control for an underwater remotely operated vehicle.
-importance: 2
+title: Design of Underwater Navigation and Control System for Coaxial Twin-Propeller ROV Based on ROS2 and Visual SLAM
+description: Underwater navigation and control system integrating stereo vision, auxiliary sensors, ROS2, and ORB-SLAM3.
+importance: 1
 ---
 
 **Oct. 2025 - Jan. 2026 | Shenzhen, China**
 
-Designed an underwater navigation and control system for a coaxial twin-propeller remotely operated vehicle.
+*Guo Lab, SUSTech | Supervised by Prof. Shuxiang Guo*
 
 ## Highlights
 
-- Built the system around ROS 2 for navigation, sensing, and control integration.
-- Combined stereo vision with auxiliary sensors for high-precision localization.
+- Integrated a stereo camera and auxiliary sensors to provide high-precision position data in underwater environments.
+- Supported map construction for a vision-inertial SLAM system using underwater sensor data.
+- Developed the SLAM system across multiple devices using the ROS2 framework.
 - Deployed ORB-SLAM3 for underwater environment mapping.
 
