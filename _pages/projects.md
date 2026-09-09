@@ -23,6 +23,9 @@ nav_order: 2
   }
 
   .project-showcase-media {
+    display: block;
+    position: relative;
+    width: 100%;
     aspect-ratio: 16 / 10;
     overflow: hidden;
     background: #f2f3f3;
