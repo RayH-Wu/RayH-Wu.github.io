@@ -2,6 +2,7 @@
 layout: page
 title: Design of Automatic Surface Water Cleaning Unmanned Boat
 description: Vision-based target tracking and robotic waste collection for an autonomous surface vessel.
+img: assets/img/projects/clearing_boat.jpg
 importance: 3
 ---
 

@@ -2,6 +2,7 @@
 layout: page
 title: Design of Underwater Navigation and Control System for Coaxial Twin-Propeller ROV Based on ROS2 and Visual SLAM
 description: Underwater navigation and control system integrating stereo vision, auxiliary sensors, ROS2, and ORB-SLAM3.
+img: assets/img/projects/visual_SLAM.jpg
 importance: 1
 ---
 
@@ -15,4 +16,3 @@ importance: 1
 - Supported map construction for a vision-inertial SLAM system using underwater sensor data.
 - Developed the SLAM system across multiple devices using the ROS2 framework.
 - Deployed ORB-SLAM3 for underwater environment mapping.
-

@@ -2,6 +2,7 @@
 layout: page
 title: Design of Motion Control System Based on TurtleBot4
 description: Collaborative planning of mobile locomotion and robotic-arm grasping for TurtleBot4.
+img: assets/img/projects/turtlebot.jpg
 importance: 2
 ---
 

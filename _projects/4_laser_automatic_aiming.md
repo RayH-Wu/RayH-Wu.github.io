@@ -2,6 +2,7 @@
 layout: page
 title: Laser Automatic Aiming Device
 description: Laser-guided automatic target-following vehicle based on STM32 and K230.
+img: assets/img/projects/laser_car.jpg
 importance: 4
 ---
 
