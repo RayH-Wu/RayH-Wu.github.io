@@ -1,7 +1,7 @@
 ---
 layout: page
-title: "Underwater ROV Navigation & Control"
-description: "Coaxial twin-propeller ROV navigation with ROS 2, stereo vision, and ORB-SLAM3."
+title: "Design of Underwater Navigation and Control System for Coaxial Twin-Propeller ROV Based on ROS2 and Visual SLAM"
+description: "Coaxial twin-propeller ROV navigation with stereo vision, ROS2, and ORB-SLAM3."
 img: assets/img/projects/visual_SLAM.jpg
 importance: 1
 ---
