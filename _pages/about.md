@@ -22,7 +22,7 @@ latest_posts:
   document.addEventListener("DOMContentLoaded", function () {
     const heading = document.querySelector(".post-title");
     if (heading) {
-      heading.textContent = "Ruihan Wu（吴瑞涵）";
+      heading.textContent = "Ruihan Wu";
     }
   });
 </script>
