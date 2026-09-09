@@ -2,15 +2,14 @@
 
 站点已跑通，剩下的都是往固定位置填字。每节给出：**改哪个文件 → 抄哪段 → 有什么坑**。
 
-发布流程永远是这三步：
+发布流程固定用这一条命令：
 
-```bash
-cd /home/ray/Disk_ext/RayH-Wu.github.io
-bash bin/check-content.sh        # 本地校验，通过再推
-git add -A && git commit -m "..." && git push
+```powershell
+.\bin\publish-site.ps1 -Message "Update project information"
 ```
 
-推上去后 `Deploy site` 跑约 3 分钟，然后**硬刷新**浏览器（`Ctrl+Shift+R`），否则看到的是缓存。
+脚本会自动执行内容检查、`git add -A`、commit 和 push。推上去后 `Deploy site`
+会自动构建并部署，完成后**硬刷新**浏览器（`Ctrl+Shift+R`），否则可能看到缓存。
 站点：<https://rayh-wu.github.io>
 
 ## 当前哪些是占位、必须替换
