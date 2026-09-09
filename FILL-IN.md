@@ -19,7 +19,7 @@
 | `assets/img/prof_pic.jpg`                            | 模板自带的爱因斯坦照片                                            | 你的证件照，同名覆盖                                      |
 | `assets/img/publication_preview/safety-game.gif`     | 我用 matplotlib 画的示意动画                                      | 真实渲染；重画用 `python3 bin/make_preview.py <输出路径>` |
 | `_bibliography/papers.bib` 里那条 `wu2026turning`    | 按你 ICRA 手稿标题写的占位，作者只列了你一人，venue 标 `Preprint` | 真实作者和 venue；不想现在公开就整条删掉                  |
-| `_projects/1_safety_filter.md`、`2_placeholder.md`   | 占位项目卡                                                        | 真实项目，或删掉                                          |
+| `_projects/*.md`                                    | CV 中的两个项目基础页已建立                                        | 后续补图片、链接和更完整的项目细节                      |
 | `_data/cv.yml`                                       | 只有骨架，大量 `TODO`                                             | 真实履历                                                  |
 | `_pages/about.md` 的 `subtitle` 和正文里 3 处 `TODO` | 职位/导师/背景空着                                                | 你的真实信息                                              |
 
