@@ -18,21 +18,12 @@ latest_posts:
   limit: 3
 ---
 
-<script>
-  document.addEventListener("DOMContentLoaded", function () {
-    const heading = document.querySelector(".post-title");
-    if (heading) {
-      heading.textContent = "Ruihan Wu（吴瑞涵）";
-    }
-  });
-</script>
-
 <div style="display:flex; gap:2rem; align-items:flex-start; flex-wrap:wrap; margin-top:0.5rem;">
   <div style="flex:1 1 520px; min-width:0;">
     <p>Hey there!</p>
     <p>I am Ruihan Wu, a senior undergraduate in Information Engineering at Southern University of Science and Technology (SUSTech).</p>
 
-    <p>At Southern University of Science and Technology, I work with <a href="https://www.sustech.edu.cn/en/faculties/shuxiangguo.html">Prof. Shuxiang Guo</a> at the <a href="http://www.guolab.org/">Guo Lab</a>. I spent a semester at the University of Pennsylvania as an exchange student, and later I was lucky to work with <a href="https://haiminhu.org/">Prof. Haimin Hu</a> at Johns Hopkins University, where I joined the <a href="https://lcsr.jhu.edu/">Learning, Control, and Safety Robotics (LCSR) Lab</a> and the <a href="https://alliance-ai.cs.jhu.edu/">Alliance AI Lab</a>.</p>
+    <p>At Southern University of Science and Technology, I work with <a href="https://www.sustech.edu.cn/en/faculties/shuxiangguo.html">Prof. Shuxiang Guo</a> at the <a href="http://www.guolab.org/">Guo Lab</a>. I spent a semester at the University of Pennsylvania as an exchange student, and later I was lucky to work with <a href="https://haiminhu.org/">Prof. Haimin Hu</a> at Johns Hopkins University, where I joined the <a href="https://lcsr.jhu.edu/">Laboratory for Computational Sensing &amp; Robotics (LCSR)</a> and the <a href="https://alliance-ai.cs.jhu.edu/">Alliance AI Lab</a>.</p>
 
     <p>My research interests broadly center on robotics and control. To me, exploring robotics is ultimately a process of understanding human nature and ourselves.</p>
 

@@ -41,7 +41,7 @@ cv:
         location: Baltimore, MD, US
         start_date: 2026-06
         end_date: 2026-09
-        summary: Research internship at the Learning, Control, and Safety Robotics (LCSR) Lab, working on robotics and learning for control.
+        summary: Research internship at the Laboratory for Computational Sensing & Robotics (LCSR), working on robotics and learning for control.
 
     Projects:
       - name: Physical Residual Distillation for AUV Reinforcement Learning Control

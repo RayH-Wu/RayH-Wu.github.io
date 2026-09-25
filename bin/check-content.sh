@@ -26,7 +26,16 @@ else
 fi
 
 echo "== 2/3  YAML and front matter =="
-python3 - <<'PY' || fail=1
+if command -v python3 >/dev/null 2>&1 && python3 -c 'import yaml' >/dev/null 2>&1; then
+  PYTHON_BIN=python3
+elif command -v python >/dev/null 2>&1 && python -c 'import yaml' >/dev/null 2>&1; then
+  PYTHON_BIN=python
+else
+  PYTHON_BIN=
+fi
+
+if [ -n "$PYTHON_BIN" ]; then
+"$PYTHON_BIN" - <<'PY' || fail=1
 import yaml, glob, sys
 bad = []
 for f in glob.glob('_data/*.yml') + ['_config.yml'] + glob.glob('.github/workflows/*.yml'):
@@ -40,6 +49,9 @@ if bad:
     sys.exit(1)
 print("   OK")
 PY
+else
+  echo "   skipped (Python is unavailable)"
+fi
 
 echo "== 3/3  Prettier =="
 if [ -d node_modules ]; then
