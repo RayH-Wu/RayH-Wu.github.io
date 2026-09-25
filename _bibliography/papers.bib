@@ -32,6 +32,22 @@
 % A complete worked example of every field is in papers.bib.example.
 % ============================================================================
 
+@article{wu2026competence,
+  title       = {Turning Safety into Competence: Minimally Exploitable Robot Policies via Safety-Filtered Reinforcement Learning},
+  author      = {Wu*, Ruihan and Yang*, Rui and Oh, Donggeon David and Nguyen, Duy and Hu, Haimin},
+  journal     = {arXiv preprint arXiv:2609.27312},
+  year        = {2026},
+  abbr        = {arXiv},
+  selected    = {true},
+  arxiv       = {2609.27312},
+  html        = {https://ar5iv.labs.arxiv.org/html/2609.27312},
+  pdf         = {https://arxiv.org/pdf/2609.27312},
+  website     = {https://alliance-ai.cs.jhu.edu/s2c/},
+  video       = {https://alliance-ai.cs.jhu.edu/s2c/#video},
+  abstract    = {Robots deployed for competitive tasks must outmaneuver their opponents without sacrificing safety. Existing approaches, including safe reinforcement learning, train a single policy to achieve task success and avoid failures simultaneously, which can leave the learned policy exploitable by deliberate attacks. We propose Safety to Competence (S2C), a two-stage reinforcement learning framework that separates safety synthesis from competitive task learning. S2C learns a robust safety filter via adversarial reinforcement learning, embeds it during task policy training, and retains the same filter at deployment. In simulated touchdown games, S2C achieves the highest win rate and Elo rating and the lowest exploitability among safe reinforcement learning baselines; hardware stress tests against a human opponent further confirm its competence.},
+  bibtex_show = {true},
+}
+
 @inproceedings{wu2026deepsim,
   title       = {Deep Hydro-Sim: Structured Residual Hydrodynamics for the RL-Based AUV Control},
   author      = {Wu, Ruihan and Li, Chunying and Lei, Qirong and Huang, Le and Li, Pengcheng and Guo, Shuxiang},
@@ -43,21 +59,5 @@
   pdf         = {632011_RuihanWu_paper.pdf},
   code        = {https://github.com/RayH-Wu/DeepHydroSim-AUV_RL_Control},
   abstract    = {Deep Hydro-Sim bridges a high-fidelity underwater simulator and a fast rigid-body engine by learning residual hydrodynamic forces from Stonefish and injecting them into MuJoCo as a real-time plugin. The result improves open-loop replay fidelity and stabilizes downstream SAC training for AUV control without sacrificing throughput.},
-  bibtex_show = {true},
-}
-
-@article{wu2026competence,
-  title       = {Turning Safety into Competence: Minimally Exploitable Robot Policies via Safety-Filtered Reinforcement Learning},
-  author      = {Wu, Ruihan and Yang, Rui and Oh, Donggeon David and Nguyen, Duy and Hu, Haimin},
-  journal     = {arXiv preprint arXiv:2609.27312},
-  year        = {2026},
-  abbr        = {arXiv},
-  selected    = {true},
-  arxiv       = {2609.27312},
-  html        = {https://ar5iv.labs.arxiv.org/html/2609.27312},
-  pdf         = {https://arxiv.org/pdf/2609.27312},
-  website     = {https://alliance-ai.cs.jhu.edu/s2c/},
-  video       = {https://alliance-ai.cs.jhu.edu/s2c/#video},
-  abstract    = {Robots deployed for competitive tasks must outmaneuver their opponents without sacrificing safety. Existing approaches, including safe reinforcement learning, train a single policy to achieve task success and avoid failures simultaneously, which can leave the learned policy exploitable by deliberate attacks. We propose Safety to Competence (S2C), a two-stage reinforcement learning framework that separates safety synthesis from competitive task learning. S2C learns a robust safety filter via adversarial reinforcement learning, embeds it during task policy training, and retains the same filter at deployment. In simulated touchdown games, S2C achieves the highest win rate and Elo rating and the lowest exploitability among safe reinforcement learning baselines; hardware stress tests against a human opponent further confirm its competence.},
   bibtex_show = {true},
 }
