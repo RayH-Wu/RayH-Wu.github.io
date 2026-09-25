@@ -8,7 +8,7 @@ importance: 4
 
 **Jul. 30 - Aug. 3, 2025 | Shenzhen, China**
 
-*National Undergraduate Electronic Design Competition*
+_National Undergraduate Electronic Design Competition_
 
 ## Highlights
 

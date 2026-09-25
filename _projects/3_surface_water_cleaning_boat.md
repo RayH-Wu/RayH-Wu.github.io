@@ -8,7 +8,7 @@ importance: 3
 
 **Jun. 23 - Jul. 13, 2025 | Shenzhen, China**
 
-*Shokz Cup Global Outstanding Innovative Talent Summer School*
+_Shokz Cup Global Outstanding Innovative Talent Summer School_
 
 ## Highlights
 

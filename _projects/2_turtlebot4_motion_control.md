@@ -8,7 +8,7 @@ importance: 2
 
 **Sep. 2025 - Dec. 2025 | Shenzhen, China**
 
-*Robotics Intelligence and Perception Course Project*
+_Robotics Intelligence and Perception Course Project_
 
 ## Highlights
 

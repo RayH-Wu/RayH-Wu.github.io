@@ -8,7 +8,7 @@ importance: 1
 
 **Oct. 2025 - Jan. 2026 | Shenzhen, China**
 
-*Guo Lab, SUSTech | Supervised by Prof. Shuxiang Guo*
+_Guo Lab, SUSTech | Supervised by Prof. Shuxiang Guo_
 
 ## Highlights
 
