@@ -62,6 +62,9 @@ cv:
           - Integrated stereo vision and auxiliary sensors for high-precision localization.
           - Deployed ORB_SLAM3 for underwater environment mapping.
 
+    Service:
+      - name: Reviewer, 2027 IEEE International Conference on Robotics and Automation (ICRA)
+
     Awards:
       - title: SUSTech Outstanding Student Scholarship
         authors:
