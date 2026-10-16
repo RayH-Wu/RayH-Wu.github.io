@@ -63,7 +63,9 @@ cv:
           - Deployed ORB_SLAM3 for underwater environment mapping.
 
     Service:
-      - name: Reviewer, 2027 IEEE International Conference on Robotics and Automation (ICRA)
+      - company: 2027 IEEE International Conference on Robotics and Automation (ICRA)
+        position: Reviewer
+        start_date: 2027
 
     Awards:
       - title: SUSTech Outstanding Student Scholarship
